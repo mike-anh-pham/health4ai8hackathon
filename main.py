@@ -9,6 +9,6 @@ st.header(alarm_clock) # print in large text
 
 from langchain.document_loaders import PyPDFLoader
 
-loader = PyPDFLoader("example_data/layout-parser-paper.pdf")
+loader = PyPDFLoader("benefit-plans.pdf")
 pages = loader.load_and_split()
 document = pages[0]
