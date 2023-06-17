@@ -13,4 +13,4 @@ loader = PyPDFLoader("benefit-plans.pdf")
 pages = loader.load_and_split()
 document = pages[0]
 
-st.write(document)
+st.write('pdf')
