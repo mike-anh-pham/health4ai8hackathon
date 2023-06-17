@@ -3,6 +3,7 @@ from langchain.llms import OpenAI
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import ConversationalRetrievalChain
+from langchain.document_loaders import PyPDFLoader
 
 st.title("Welcome to Health Universe!")
 st.write("This is a sample application.")
