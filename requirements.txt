@@ -1,3 +1,6 @@
 streamlit
 langchain
 pypdf
+os
+openai
+chromadb
