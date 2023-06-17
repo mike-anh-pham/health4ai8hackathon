@@ -4,3 +4,8 @@ pypdf
 os
 openai
 chromadb
+PyPDF2
+python-dotenv
+faiss-cpu=
+streamlit-extras
+altair
